@@ -25,3 +25,6 @@ sudo node index.js
 ```
 sudo privilege is required since the BCM2835 library (step 2) needs access to /open/mem.
 
+
+## Credits
+[https://github.com/momenso/node-dht-sensor](https://github.com/momenso/node-dht-sensor)
