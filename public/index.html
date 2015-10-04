@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Simple Humidity/Temperature monitor</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron alert alert-info" style="text-align:center;">
+						<h3>Humidity</h3>
+						<h1 id="js-humidity">...</h1>
+						<span id="js-humidity-previous"></span>
+					</div>
+
+					<div class="jumbotron alert alert-success" style="text-align:center;">
+						<h3>Temperature</h3>
+						<h1 id="js-temperature">...</h1>
+						<span id="js-temperature-previous"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="moment.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
